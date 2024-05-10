@@ -2,6 +2,7 @@ import React from 'react'
 import {useNavigate} from 'react-router-dom'
 import './Home.css'
 import { FaFacebookF,FaWhatsapp } from "react-icons/fa";
+import { FaBars } from 'react-icons/fa6';
 
 const Home = () => {
   const navigate = useNavigate()
@@ -10,8 +11,7 @@ const Home = () => {
         <div>
             <div className='s-nav'>
             <img src="./assets/black.medium.png" alt="logo" className='logo'/>
-            <button class="btn-L" onClick={() => navigate('Login')}>Login</button>
-            <button class="btn"   onClick={() => navigate('Signup')}>Sign up</button>
+            <FaBars className='bars' onClick={() => navigate('FormD')}/>
             </div>
         <nav id="nav">
         <div>
@@ -25,8 +25,8 @@ const Home = () => {
         <li><a href="#CONNECT">Connect with us</a></li>
         </ul>
     </div>
-            <button class="btn-L" onClick={() => navigate('Login')}>Login</button>
-            <button class="btn"   onClick={() => navigate('Signup')}>Sign up</button>
+            <button class="btn-L" onClick={() => navigate('/Login')}>Login</button>
+            <button class="btn"   onClick={() => navigate('/Signup')}>Sign up</button>
     </nav>
         <section id="HOME">
             <div className="home-content">
@@ -72,8 +72,8 @@ const Home = () => {
                 <p>Address : GRA Phase 3,Port Harcourt.</p>
                 <p>Website: MyPlana.shop</p>
                 <div className='icon'>
-                   <a href="#"><FaWhatsapp />@What'sApp</a>
-                   <a href="#"><FaFacebookF />@Facebook</a>
+                   <a href="*"><FaWhatsapp />@What'sApp</a>
+                   <a href="*"><FaFacebookF />@Facebook</a>
                 </div>
             </footer>
         </div>

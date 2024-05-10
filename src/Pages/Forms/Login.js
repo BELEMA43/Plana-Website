@@ -22,7 +22,7 @@ const Login = () => {
                 <label for=""><input type="checkbox"/>Remember me</label>
                 <a href="#">Forgot password?</a>
             </div>
-            <button type="submit" className="btn-1" onClick={() => navigate('WebHome')}>Login</button>
+            <button type="submit" className="btn-1" onClick={() => navigate('/WebHome')}>Login</button>
 
         </form>
     </div>

@@ -28,7 +28,7 @@ const Signup = () => {
             <div className="remember-forgot">
                 <label for=""><input type="checkbox"/>Remember me</label>
             </div>
-            <button type="submit" className="btn-1" onClick={() => navigate('WebHome')}>Sign up</button>
+            <button type="submit" className="btn-1" onClick={() => navigate('/WebHome')}>Sign up</button>
 
         </form>
     </div>

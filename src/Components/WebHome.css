@@ -94,16 +94,57 @@ footer{
 footer h4{
     margin-top: 5px;
 }
+.nav-s-b{
+    background: transparent;
+    padding: 7px;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+
+}
+.sidebar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+    background-color: white;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sidebar button{
+    width: 100%;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.sidebar input{
+    width: 100%;
+}
+.crr{
+    display: none;
+}
 
 @media screen and (max-width: 700px) {
     .web-h .nav{
-        display: flex;
+        display: none;
         justify-content: space-around;
         width: 100vw;
         height: 10vh;
         align-items: center;
         padding-top: 2rem;
     
+    }
+    .crr{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        height: 10vh;
+        align-items: center;
+        padding-top: 2rem;
     }
     .nav-btn button{
         padding: 1px 8px;
@@ -139,4 +180,12 @@ footer h4{
         bottom: 0;
         margin-top: 2rem;
     }
+    .crr{
+        display: flex;
+        width: 100vw;
+    }
+    .crr img{
+        width: 200px;
+    }
+
 }
