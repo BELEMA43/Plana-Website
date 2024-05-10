@@ -1,0 +1,10 @@
+.wrapper-l{
+    width: 27rem;
+    height: 30rem;
+}
+.body-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}

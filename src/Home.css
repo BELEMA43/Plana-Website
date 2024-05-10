@@ -1,0 +1,210 @@
+
+.main-h nav, .nav-links{
+    display: flex;
+
+}
+
+.main-h nav{
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+    letter-spacing: 3px;
+}
+
+.main-h .nav-links{
+    gap: 6rem;
+    list-style: none;
+    font-size: 17px;
+
+}
+
+.logo:hover{
+    cursor: default;
+}
+
+.main-h a{
+    font-family: "Roboto Serif", serif;
+    font-size: 17px;
+    color: var(--on-primary);
+    text-decoration: none;
+    font-weight: 400;
+}
+.main-h a:hover{
+    color: var(--Outerspace);
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: var(--Outerspace);
+    font-weight: 400;
+}
+
+.main-h .btn{
+    background: var(--orange);
+    color: var(--on-background);
+    border: 2px solid var(--on-background);
+}
+.main-h .btn:hover{
+    background: transparent;
+    color: var(--orange);
+    border: 2px solid var(--orange);
+    cursor: pointer;
+}
+
+.main-h .btn-L, .btn{
+    padding: 0.5em;
+    border-radius: 1em;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.main-h .btn-L{
+    background: var(--primary-color);
+    color: var(--on-background);
+    border: 2px solid var(--on-background);
+}
+.main-h .btn-L:hover{
+    background: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+}
+
+/*SECTIONS*/
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*WELCOME*/
+.main-h .home-content{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.main-h .Welcome-text{
+    padding-left: 10px;
+}
+.main-h h1{
+    font-size: 4rem;
+}
+.main-h .think-img{
+    width: 350px;
+}
+
+/*ABOUT*/
+
+.main-h .abt-content p{
+    margin: 1rem;
+    font-size: 1.2rem;
+    width: 40rem;
+}
+
+.main-h h2{
+    margin: 2rem;
+}
+
+
+.main-h .news-content {
+    width: 80%;
+    align-items: center;
+    text-align: center;
+}
+
+.main-h .news-content b{
+    padding-bottom: 0.5rem;
+    font-size: xx-large;
+
+}
+
+.main-h .news-content img{
+    width: 70%;
+}
+.main-h .news-content p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.main-h .news-content button{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.main-h .news-content{
+    width: 90%;
+}
+.main-h .news-end p{
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+}
+.main-h .con-btn{
+    margin: 3rem;
+}
+
+.main-h footer{
+    background-color: var(--primary-color);
+    color: var(--on-background);
+    width: 100%;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 1rem;
+    bottom: 0;
+    height: 35vh;
+}
+
+.main-h .connect{
+    padding-bottom: 2rem;
+    font-size: larger;
+}
+.main-h #CONNECT{
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-h .con-content p{
+     font-size: x-large;
+}
+.main-h h2{
+    color: var(--on-primary);
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 20px;
+}
+.icon a{
+    font-size: .8rem;
+    color: #fff;
+}
+.s-nav{
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    #nav{
+        display: none;
+    }
+    .main-h .abt-content p{
+        margin: 1rem;
+        font-size: 1.2rem;
+        width: 20rem;
+    }
+    .s-nav{
+        display: flex;
+        justify-content: space-around;
+        height: 9vh;
+    }
+}

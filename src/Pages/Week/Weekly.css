@@ -1,0 +1,107 @@
+.week-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem;
+    width: 100vw;
+    height: 10vh;
+    color: var(--on-background);
+    background: var(--purple);
+    margin-bottom: 50px;
+}
+.date{
+    color: var(--on-background);
+    background: transparent;
+    border: 1px solid #ffffff63;
+    font-size: 1rem;
+    padding: 3px 9px;
+    border-radius: 1rem;
+}
+
+.week-main-t{
+    display: flex;
+    justify-content: space-around;
+    color: var(--purple);
+}
+.week-ol{
+    display: flex;
+    justify-content: center;
+    color: var(--purple);
+    font-size: 1.5rem;
+}
+ol li input{
+    width: 800px;
+    border: none;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    border-bottom: 2px solid var(--purple);
+    color: var(--purple);
+}
+ul{
+    list-style: none;
+}
+
+h2{
+    color: var(--purple);
+}
+
+.remember{
+    margin-left: 15rem;
+    margin-top: 50px;
+}
+ul li input{
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    border-bottom: 2px solid var(--purple);
+    color: var(--purple);
+}
+.week-foot{
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+}
+.week-foot button{
+    border: none;
+    color: var(--on-background);
+    background: var(--purple);
+}
+
+@media screen and (max-width: 700px) {
+    .week-nav h1{
+        font-size: .8rem;
+    }
+    .week-nav .logo{
+        width: 100px;
+    }
+    .week-nav .date{
+        font-size: 0.5rem;
+    }
+    .week-nav h2{
+        font-size: xx-small;
+    }
+    .week-nav h4{
+        font-size: xx-small;
+    }
+    .week-nav .week-ol{
+        font-size: .2rem;
+    }
+    ol li input{
+        width: 300px;
+        border: none;
+        font-size: 1rem;
+        padding-top: 0.5rem;
+        border-bottom: 2px solid var(--purple);
+        color: var(--purple);
+    }
+    ul li input{
+        display: inline-block;
+        border: none;
+        font-size: 1rem;
+        padding-top: 0.5rem;
+        border-bottom: 2px solid var(--purple);
+        color: var(--purple);
+    }
+}

@@ -1,0 +1,107 @@
+.nft-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-web button{
+    background: var(--darkpastelblue);
+    color: var(--on-background);
+    font-size: 17px;
+    font-weight: bold;
+    border: 2px solid var(--darkpastelblue);
+    padding: 0.5rem;
+    border-radius: 3rem;
+    margin-left: 1rem;
+}
+
+.btn-web button:hover{
+    background: transparent;
+    color: var(--orange);
+    border: 2px solid var(--orange);
+    cursor: pointer;
+}
+
+.main-nft{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 40px;
+    gap: 4rem;
+}
+.main-nft h1{
+    font-size: 4rem;
+    width: 400px;
+    color: var(--orange);
+}
+.main-nft p{
+    font-size: x-large;
+}
+.main-nft button{
+    margin-top: 15px;
+    padding: 1.2rem;
+    margin-right: 1rem;
+    color: var(--on-background);
+    border: none;
+    font-weight: bold;
+}
+.main-nft button:hover{
+    cursor: pointer;
+}
+.a-btn{
+    background: var(--darkpastelblue);
+}
+.o-btn{
+    background: var(--orange);
+}
+
+.prize{
+    width: 500px;
+}
+.foot{
+    width: 150px;
+}
+.nft-back button{
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 0.7rem;
+    border: none;
+    color: var(--on-background);
+    font-size: 17px;
+    font-weight: bold;
+}
+.nft-back{
+    display: flex;
+    justify-content: flex-end;
+}
+.nft-bac:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .nft-nav{
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .main-nft{
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        margin-top: 10px;
+        width: 100vw;
+        margin-left: 10px;
+    }
+    .main-nft h1{
+        font-size: 2rem;
+        width: 50px;
+        color: var(--orange);
+    }
+    .prize{
+        width: 40vw;
+    }
+    .foot{
+        width: 80px;
+    }
+}
