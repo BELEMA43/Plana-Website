@@ -7,8 +7,8 @@ const MonthlyGoals = () => {
     <div>
       <div className="goals-nav">
         <div className='goals-img'>
-          <img src="/assets/logo-pic-black.png" alt="logo" className='logo' />
-        </div> 
+          <a href="/"><img src="/assets/logo-pic-black.png" alt="image" className='logo' /></a>
+          </div>
         <div className='goals-h1'>
           <h1>MY GOALS FOR THE MONTH</h1>
         </div>
@@ -26,7 +26,7 @@ const MonthlyGoals = () => {
           </ul>
       </div>
       <div>
-        <button>Rent</button>
+        <button>Projects</button>
           <ul>
             <li><input type="text" /></li>
             <li><input type="text" /></li>

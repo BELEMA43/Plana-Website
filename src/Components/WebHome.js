@@ -9,7 +9,7 @@ const WebHome = () => {
   return (
     <div className='web-h'>
         <div className="nav">
-           <img src="/assets/black.medium.png" alt="logo" className="logo"/>
+           <a href="/"><img src="/assets/black.medium.png" alt="logo" className="logo"/></a>
            <div className='nav-btn'>
                 <button className='nav-btn3'onClick={() => navigate('/MonthlyGoals')}>Monthly plans</button>
                 <button className='nav-btn3' onClick={() => navigate('/Weekly')}>Weekly plans</button>

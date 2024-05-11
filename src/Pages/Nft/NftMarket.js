@@ -7,7 +7,7 @@ const NftMarket = () => {
   return (
     <div>
         <div className="nft-nav">
-        <img src="/assets/black.medium.png" alt='' class="logo"/>
+        <a href="/"><img src="/assets/black.medium.png" alt='logo' class="logo"/></a>
         <div className="btn-web">
             <button>Connect Wallet</button>
         </div>

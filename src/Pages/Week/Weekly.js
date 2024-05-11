@@ -6,7 +6,7 @@ const Weekly = () => {
   return (
     <div>
         <div className='week-nav'>
-            <img src="/assets/logo-pic-black.png" alt="" className='logo'/>
+            <a href="/"><img src="/assets/logo-pic-black.png" alt="" className='logo'/></a>
             <h1>MY WEEKLY PLANA</h1>
             <input type="week" className='date'/>
         </div>

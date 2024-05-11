@@ -9,7 +9,7 @@ const FormD = () => {
     <div className='formNa'>
         <nav id="nav-f">
         <div>
-        <img src="./assets/black.medium.png" alt="logo" className='logo'/>
+         <a href="/"><img src="./assets/black.medium.png" alt="logo" className='logo'/></a>
         <FaTimes onClick={() => navigate('/')} className='bars'/>
         </div>
             <div className='btn-f'>
