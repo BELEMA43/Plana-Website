@@ -30,7 +30,7 @@ const Home = () => {
     </nav>
         <section id="HOME">
             <div className="home-content">
-                <img src="./assets/Welcome-img.jpg" alt="" className='think-img' />
+                <img src="./assets/Welcome-img.jpg" alt="picture" className='think-img' />
                 <div className="Welcome-text" >
                     <h1>How do you feel?</h1>
                     <p>When you plan and cannot keep a prompt track of your goals and achievements.</p>
